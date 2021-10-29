@@ -47,20 +47,24 @@ table {
 	border-spacing: 0;
 } */
 /* end of css reset */
-
+:focus {
+	outline: 0;
+	}
 
 * {
     box-sizing: border-box;
     border: 1px solid grey;
 }
 
-html, body {
+html {
     /* height: 100%; */
+    font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
     /* font-size: 62.5%; */
 }
 body{
     margin: 0% 15% 0% 15%;
+    font-size:1.6rem;
 }
 
 h1, h2, h3, h4, h5 {
@@ -86,15 +90,35 @@ header {
 }
 
 .logo{
-    width: 25%;
-
+    display:flex;
+    width:20%;
 }
 
-header nav{
-    width:75%
+.logo img{
+    width: 100%;
 }
 
+header nav {
+    display:flex;
+    width:80%;
+    justify-content:space-evenly;
+    align-items: center;
+}
 
+header nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.banner {
+    /* max-width: 100%; */
+    /* padding: 3% 0%; */
+    margin: auto;
+}
+
+.banner img {
+    width: 100%;
+}
 
 .top-content {
     display: flex;
@@ -122,20 +146,54 @@ header nav{
 
 .middle-content .boxes {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    flex-flow: wrap;
+    justify-content: center;
 }
 
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.box1 div{
+    background-color:teal;
+}
+box2{
+    background-color:gold; 
+}
+box3{
+    background-color:cadetblue;
+}
+box4{
+    background-color:;
+}
+box5{
+    background-color:;
+}
+box6{
+    background-color:;
+}
+box7{
+    background-color:;
+}
+box8{
+    background-color:;
+}
+box9{
+    background-color:;
+}
+box10{
+    background-color:;
+}
+
+
+
 
 .bottom-content {
     display: flex;
