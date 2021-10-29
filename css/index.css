@@ -134,7 +134,7 @@ header nav a{
     padding-bottom: 20px;  
 }
 
-.middle-content {
+/* .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
@@ -153,45 +153,77 @@ header nav a{
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    /* background: black; */
+    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+} */
+
+.middle-content {
+    max-width: auto;
+    border-bottom: 1px dashed black;
+    margin:auto;
+    text-align:center;
 }
 
-.box1 div{
-    background-color:teal;
-}
-box2{
-    background-color:gold; 
-}
-box3{
-    background-color:cadetblue;
-}
-box4{
-    background-color:;
-}
-box5{
-    background-color:;
-}
-box6{
-    background-color:;
-}
-box7{
-    background-color:;
-}
-box8{
-    background-color:;
-}
-box9{
-    background-color:;
-}
-box10{
-    background-color:;
+h2{
+  margin: 1%;
+  text-align: left;
 }
 
+.boxes{
+  display:flex;
+  flex-flow: column;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin: 2%;
+
+}
+
+.box{
+  max-width: 13%;
+  padding: 5%;
+  color: white;
+  text-size:1.4rem;
+}
+
+.box1{
+  background-color:teal;
+}
+
+.box2{
+  background-color: gold;
+}
+.box3{
+  background-color: cadetblue;
+}
+.box4{
+  background-color: coral;
+}
+.box5{
+  background-color: crimson;
+}
+.box6{
+  background-color: forestgreen;
+}
+.box7{
+  background-color: darkorchid;
+}
+.box8{
+  background-color: hotpink;
+}
+.box9{
+  background-color: indigo;
+}
+.box10{
+  background-color: dodgerblue;
+}
 
 
 
