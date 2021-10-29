@@ -210,3 +210,70 @@ footer nav a {
 }
 /* About page CSS */
 
+/* .right{
+    display: flex;
+    flex-flow:row;
+    width: 50%;
+}
+.right img {
+    
+}
+
+.left{
+    display:flex;
+}
+left img{
+    
+}
+
+.wework{
+    display: flex;
+    flex-flow: column no-wrap;
+    width: 50%;
+
+}
+
+.about{
+    display: flex;
+    flex-flow: column no-wrap;
+    
+}
+
+.strategy{
+    display: flex;
+    flex-flow: column no-wrap;
+    
+}
+
+.collab{
+    display: flex;
+    flex-flow: column;
+} */
+.mid{
+    display:flex;
+    
+}
+.left-block{
+  flex-direction: column;
+  flex-wrap:no-wrap;
+}
+
+}
+.right-block{
+  flex-direction: column;
+}
+
+.p {
+    display: block;
+  padding:3%;
+}
+button{
+        background-color: white;
+        border: 2px solid black;
+        color:black;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
