@@ -31,7 +31,7 @@ time, mark, audio, video {
 
 * {
     box-sizing: border-box;
-    border: 1px solid grey;
+    /* border: 1px solid grey; */
 }
 
 html {
