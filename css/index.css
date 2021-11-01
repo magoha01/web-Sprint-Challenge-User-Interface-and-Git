@@ -31,7 +31,7 @@ time, mark, audio, video {
 
 * {
     box-sizing: border-box;
-    /* border: 1px solid grey; */
+    border: 1px solid grey;
 }
 
 html {
@@ -251,22 +251,28 @@ left img{
 } */
 .mid{
     display:flex;
-    
-}
-.left-block{
-  flex-direction: column;
-  flex-wrap:no-wrap;
+    width: 100%;
+    flex-flow:wrap;
 }
 
+.row{
+  display: flex;
+  width: 100%;
 }
-.right-block{
-  flex-direction: column;
+.block{
+  width: 50%;
+  border-bottom: 2px dotted black;
+  margin: 2%;
 }
 
-.p {
-    display: block;
-  padding:3%;
+.block img{
+  width: 100%;
 }
+
+.moreinfo{
+  margin: 1%;
+}
+
 button{
         background-color: white;
         border: 2px solid black;
@@ -276,4 +282,6 @@ button{
         text-decoration: none;
         display: inline-block;
         font-size: 16px;
+        border-radius: 12px;
+        margin: 3% 0;
 }
